@@ -1,0 +1,26 @@
+.home{
+  width: 100vw;
+  &_carousel{
+    &_img {
+      background-color: blue;
+      height: 100%; 
+      width: 100%;
+  }
+  &_slide {
+    &_img {
+      width: 100%;
+      height: 100%;
+  }
+    &_content {
+      text-align: center;
+      color: White;
+      z-index: 1;
+      margin-top: -30%;
+      font-size: 4rem;
+}
+  }
+
+  }
+
+} 
+

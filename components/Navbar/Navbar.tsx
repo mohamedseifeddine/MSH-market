@@ -12,12 +12,12 @@ function Navbar() {
       <div className={styles.Navbar_container}>
         <div className={styles.Navbar_section}>
           <Link href="/">
-            <a className={styles.Navbar_title}>MSH-Market</a>
+            <a className={styles.Navbar_title}>MSH.Market</a>
           </Link>
           <InputField
             borderRadius="1.6rem"
             height=".2rem"
-            width="50em"
+            width="20rem"
             placeholder="Start typing for searching..."
             type="text"
           />
@@ -25,7 +25,7 @@ function Navbar() {
             <a className={styles.Navbar_btn}> Products</a>
           </Link>
           <Link href="/landing">
-            <a className={styles.Navbar_btn}> Shop</a>
+            <a className={styles.Navbar_btn}>Cart</a>
           </Link>
 
           <div className={styles.Navbar_buttons}>
