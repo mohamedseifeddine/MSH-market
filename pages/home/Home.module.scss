@@ -1,0 +1,26 @@
+.home{
+  width: 100vw;
+  background-color: #f5f5f5;
+  &_carousel{
+  &_slide {
+    &_img {
+      width: 100%;
+      height: 450px;
+  }
+    &_content {
+      text-align: center;
+      color: White;
+      z-index: 1;
+      margin-top: -30%;
+      font-size: 4rem;
+}
+  }
+
+}
+  &_categories {
+    margin-top: 4rem;
+    background-color: #fff;
+    }
+
+} 
+
